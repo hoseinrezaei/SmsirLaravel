@@ -55,7 +55,7 @@ and add this line to your app.php aliases:
 
 > **Like this:**
 
-	'webservice-url' => env('SMSIR_WEBSERVICE_URL','https://ws.sms.ir/'),
+	'webservice-url' => env('SMSIR-WEBSERVICE-URL','https://ws.sms.ir/'),
 	'api-key' => env('SMSIR_API_KEY','Your sms.ir api key'),
 	'secret-key' => env('SMSIR_SECRET_KEY','Your sms.ir secret key'),
 	'line-number' => env('SMSIR_LINE_NUMBER','Your sms.ir line number'
